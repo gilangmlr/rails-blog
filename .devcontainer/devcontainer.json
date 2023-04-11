@@ -23,11 +23,13 @@
 		// Configure properties specific to VS Code.
 		"vscode": {
 				"settings": {
-						"rubyLsp.rubyVersionManager": "rvm"
+						"rubyLsp.rubyVersionManager": "rvm",
+						"solargraph.useBundler": true
 				},
 				"extensions": [
 					"Shopify.ruby-lsp",
-					"ms-azuretools.vscode-docker"
+					"ms-azuretools.vscode-docker",
+					"castwide.solargraph"
 				]
 		}
 	},
