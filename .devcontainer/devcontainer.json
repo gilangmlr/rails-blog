@@ -8,6 +8,13 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"configureZshAsDefaultShell": "true"
+		},
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
+			"plugins": "zsh-autosuggestions zsh-syntax-highlighting",
+			"omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git"
+		},
 		"ghcr.io/devcontainers/features/ruby:1": "2.7.4"
 	},
 
@@ -23,7 +30,9 @@
 		// Configure properties specific to VS Code.
 		"vscode": {
 			"settings": {
+				"editor.defaultFormatter": "Shopify.ruby-lsp",
 				"editor.formatOnSave": true,
+				"editor.formatOnSaveMode": "file",
 				"editor.formatOnType": true,
 				"rubyLsp.formatter": "rubocop",
 				"rubyLsp.rubyVersionManager": "rvm",
