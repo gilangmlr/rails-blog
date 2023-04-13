@@ -6,5 +6,6 @@ sudo ln -s /bin/mkdir /usr/bin/mkdir
 # setup the project
 bundle install && rake db:setup
 
-# generate gems docs for solargraph
+# generate docs for solargraph
+rake annotate_models
 yard gems
