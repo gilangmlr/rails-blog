@@ -22,3 +22,23 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Dev Container Credentials
+
+### PostgreSQL
+
+```
+host: db
+port: 5432
+user: postgres
+pass: postgres
+```
+
+### pgAdmin
+
+```
+host: localhost
+port: 8080
+email: admin@admin.com
+pass: admin
+```
