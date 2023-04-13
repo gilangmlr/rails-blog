@@ -48,7 +48,8 @@
 			},
 			"extensions": [
 				"Shopify.ruby-lsp",
-				"castwide.solargraph"
+				"castwide.solargraph",
+				"KoichiSasada.vscode-rdbg"
 			]
 		}
 	},
